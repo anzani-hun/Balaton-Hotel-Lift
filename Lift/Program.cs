@@ -37,12 +37,12 @@ namespace Lift
                 if ((olvaso[i].Length > 0) && (i <= 1000))
 
                 {
-                    string[] so = olvaso[i].Split(' ');
+                    string[] sor = olvaso[i].Split(' ');
 
-                    seged.ido = Convert.ToDateTime(so[0]);
-                    seged.kartyaSorSzam = Convert.ToInt32(so[1]);
-                    seged.induloSzint = Convert.ToInt32(so[2]);
-                    seged.celSzint = Convert.ToInt32(so[3]);
+                    seged.ido = Convert.ToDateTime(sor[0]);
+                    seged.kartyaSorSzam = Convert.ToInt32(sor[1]);
+                    seged.induloSzint = Convert.ToInt32(sor[2]);
+                    seged.celSzint = Convert.ToInt32(sor[3]);
 
                     BalatonLift.Add(seged);
 
